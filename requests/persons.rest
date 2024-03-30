@@ -19,3 +19,16 @@ content-type: application/json
     "name": "salman",
     "number": "123456789"
 }
+
+###
+
+GET http://localhost:3001/info
+
+###
+PUT http://localhost:3001/api/persons/660862c7c089da02dc4037a4 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "salman",
+    "number": "1234"
+}
